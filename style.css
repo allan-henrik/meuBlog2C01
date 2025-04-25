@@ -1,0 +1,49 @@
+:root{
+    --cor-fundo-header: #0044cc;
+    --cor-texto: #ffffff;
+    --altura-header: 80px;
+}
+
+header{
+    background-color: var(--cor-fundo-header);
+    color: var(--cor-texto);
+    padding: 20px;
+    height: var(--altura-header);
+}
+
+header nav a{
+    color: var(--cor-texto);
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+main .conteudo{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+section h2{
+    font-size: 24px;
+    color:#333333;
+}
+
+section p{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - var(--altura-header));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
